@@ -1,0 +1,145 @@
+.header {
+    background-color: #FFD580;
+    height: 85px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 1536px;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    min-height: calc(100vh - 85px - 100px);
+}
+
+.mid_pic {
+    display: flex;
+    margin: -300px 56px 72px 878px;
+    width: 658px;
+    height: 406px;
+}
+
+.upper_contents {
+    background-color: rgba(255, 242, 254);
+    height: 406px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+
+    padding: 138px 0px 0px 415px;
+    width: 332px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    margin: 6px -519px -3px 542px;
+}
+
+.quote1 {
+
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 313px;
+    width: 473px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px 0px 404px;
+    width: 478px;
+    height: 46px;
+
+    margin: 1px 0px 0px -127px;
+}
+
+.btn1 {
+    width: 175px;
+    height: 51px;
+}
+
+.btn2 {
+    margin: 4px 0px 0px -1px;
+    height: 41px;
+    width: 94px;
+}
+
+.quote2 {
+
+    margin: 27px 0px 0px 0px;
+    text-align: center;
+}
+
+.search {
+    margin: 9px 0px 0px 534px;
+
+}
+
+.search1 {
+
+    height: 37px;
+    width: 363px;
+}
+
+.container1 {
+
+    display: grid;
+
+    grid-column-gap: 86px;
+    grid-row-gap: 20px;
+    grid-template-columns: 440px 440px 440px;
+    grid-template-rows: 301px 301px;
+    justify-content: space-around;
+    margin: -39px 15px 0px 29px;
+    padding: 109px 19px 19px 39px;
+}
+
+
+.item {
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.last_pic {
+    margin: -257px -278px -31px 136px;
+
+}
+
+.lower_quote {
+    margin: -38px -259px 46px 151px;
+
+}
+
+.logo {
+    width: 90px;
+    height: 85px;
+    margin: 0px 0px -70px 66px;
+}
